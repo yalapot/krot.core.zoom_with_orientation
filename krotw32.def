@@ -1,0 +1,44 @@
+LIBRARY krotw32
+EXPORTS
+krotScreenMode=_krotScreenMode@20
+krotScreenFilter=_krotScreenFilter@12
+krotPageScale=_krotPageScale@8
+krotChangePic=_krotChangePic@12
+krotTopSens=_krotTopSens@12
+krotError=_krotError@4
+krotOpenTrace=_krotOpenTrace@24
+krotCloseTrace=_krotCloseTrace@4
+krotPaint=_krotPaint@24
+krotExtSensorInfo=_krotExtSensorInfo@16
+krotGetFirstNode=_krotGetFirstNode@28
+krotGetNextNode=_krotGetNextNode@8
+krotGetFirstNodeGroup=_krotGetFirstNodeGroup@24
+krotGetNextNodeGroup=_krotGetNextNodeGroup@8
+krotGetSingleSens=_krotGetSingleSens@20
+krotPaintZoom=_krotPaintZoom@40
+krotGetVectSens=_krotGetVectSens@20
+krotSetClipboard = _krotSetClipboard@4
+krotRegisterTrace = _krotRegisterTrace@20
+krotCheckDriver = _krotCheckDriver@24
+krotExtCorozInfo = _krotExtCorozInfo@12
+krotLockNodeSequence = _krotLockNodeSequence@8
+krotDai = _krotDai@24
+krotCorozDump = _krotCorozDump@16
+krotZoomDump = _krotZoomDump@16
+krotZoomDumpEx = _krotZoomDumpEx@24
+krotScanWeld = _krotScanWeld@20
+krotEvent = _krotEvent@8
+krotCorozData = _krotCorozData@24
+
+checkVmode=_checkVmode@0
+rgbColor = _rgbColor@8
+krtPalInit = _krtPalInit@0
+krtPalClose = _krtPalClose@0
+krtPalSet = _krtPalSet@32
+krtPalDraw = _krtPalDraw@12
+SetScaleMode=_SetScaleMode@4
+GetScaleMode=_GetScaleMode@0
+
+
+CS_krotPaint=_CS_krotPaint@24
+CS_krotChangePic=_CS_krotChangePic@16
